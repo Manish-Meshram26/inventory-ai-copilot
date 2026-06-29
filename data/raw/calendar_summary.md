@@ -150,7 +150,7 @@ This dataset is primarily used for **feature engineering**:
 
 ------------------------------------------------------------------------
 
-## Summary (Interview Style)
+## Summary 
 
 > **calendar.csv** contains one record for each calendar day in the
 > forecasting period. It maps the sales day identifiers (`d_1`, `d_2`,
