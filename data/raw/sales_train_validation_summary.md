@@ -109,7 +109,7 @@ This dataset is used to:
 
 ------------------------------------------------------------------------
 
-## Summary (Interview Style)
+## Summary 
 
 > **sales_train_validation.csv** contains historical daily unit sales
 > for every product-store combination used during the validation stage
