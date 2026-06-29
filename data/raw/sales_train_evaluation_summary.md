@@ -110,7 +110,7 @@ Typical preprocessing steps include:
 
 ------------------------------------------------------------------------
 
-## Summary (Interview Style)
+## Summary 
 
 > **sales_train_evaluation.csv** contains historical daily unit sales
 > for every product-store combination. Each row represents a unique item
