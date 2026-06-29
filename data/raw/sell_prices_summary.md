@@ -93,7 +93,7 @@ These features help the model learn how pricing affects customer demand.
 
 ------------------------------------------------------------------------
 
-## Summary (Interview Style)
+## Summary 
 
 > **sell_prices.csv** contains the weekly selling price of every
 > product-store combination in the M5 Forecasting dataset. Each row
