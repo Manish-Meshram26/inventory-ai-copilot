@@ -3,6 +3,9 @@ __pycache__/
 data/raw/*.csv
 data/processed/*.csv
 data/external/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+data/external/*.parquet
 .ipynb_checkpoints/
 *.pyc
 .env
