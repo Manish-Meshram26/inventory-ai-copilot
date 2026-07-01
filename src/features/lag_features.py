@@ -38,3 +38,22 @@ def rolling_mean(df: pd.DataFrame, windows=(7, 28)) -> pd.DataFrame:
     return result
 
 
+def lag_features(df: pd.DataFrame, lags=(1, 7, 28), windows=(7, 28)) -> pd.DataFrame:
+    """Add both lagged sales and rolling mean columns for each item_id/store_id pair.
+
+    Parameters:
+        df: DataFrame containing at least 'item_id', 'store_id', and 'sales'.
+        lags: Iterable of integer lag periods to add as columns.
+        windows: Iterable of integer window sizes for rolling mean columns.
+
+    Returns:
+        DataFrame with lag and rolling mean columns.
+    """
+
+    result = add_lag_features(df, lags)
+    result = rolling_mean(result, windows)
+    return result
+
+
+
+
